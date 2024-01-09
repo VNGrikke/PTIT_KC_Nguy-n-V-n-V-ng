@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans:wght@400;500;600;700&family=Salsa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.header1{
+    display:flex;
+    gap: 60px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 24px 0 24px 0;
+}
+
+.header1-left{
+    
+    gap: 0;
+}
+.logo1{
+    width: 24px;
+}
+.logo2{
+    position: relative;
+    top: -3px;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+.header1-middle-item{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+.header1-middle-item .header1-item{
+    color: rgb(198, 198, 198);
+    
+}
+
+.header1-middle-item .header1-item:hover{
+    color: rgb(255, 255, 255);
+}
+.button{
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 44px;
+    width: 120px;
+    background-color: rgb(0, 217, 217);
+    color: rgb(255, 255, 255);
+}
+.button:hover{
+    background-color: rgb(63, 255, 92);
+    color: white;
+}
+.button .text span{
+    position: relative;
+    top: 3px;
+    font-size: 16px;
+}
+
+.header2{
+    height: 848px;
+    width: 100%;
+    background-image: url(technology-web-line-biology-coding-html-1066093-pxhere.com.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.header2 .text{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    top: -50px;
+
+}
+.header2 .text .text-2{
+    font-family: 'Salsa', cursive;
+    font-size: 64px;
+    
+}
+.header2 .text button{
+    position: relative;
+    top: 15px;
+    padding: 13px 20px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: rgb(127, 234, 255);
+}
+.header2 .text button:hover{
+    background-color: rgb(63, 255, 92);
+    color: rgb(255, 255, 255);
+}
+.header2 .piture{
+    position: relative;
+    top: -66px;
+    width: 556px;
+    height: 716px;
+    background-color: grey;
+    text-align: center;
+    line-height: 716px;
+    font-size: 56px;
+    font-weight: 800;
+}
+.header2 .text .text-2-1{
+    position: relative;
+    top: -120px;
+    left: 450px;
+    height: 2px;
+    width: 200px;
+    border-radius: 2px;
+    background-color: orange;
+}
+.get_in_touch{
+    margin:0 120px 0 120px;
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    padding-top: 40px;
+    justify-content:space-evenly;
+    gap: 300px;
+    
+}
+.inp{
+    display: flex;
+    gap: 20px;
+}
+
+input{
+    margin: 10px 0 10px 0;
+    width: 300px;
+    height: 38px;
+    border-radius: 4px;
+    color: grey;
+    border: 1px solid transparent;
+}
+.Message{
+    color: grey;
+}
+#submit{
+    width: 170px;
+    border: 1px solid transparent;
+    background-color:  rgb(127, 234, 255);
+    color: white;
+}
+#submit:hover{
+    background-color: rgb(63, 255, 92);
+}
+.get_in_touch .right img{
+    width: 150px;
+}
+.right{
+    position: relative;
+    left: -120px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact span{
+    position: relative;
+    top: 8px;
+}
+.contact-1{
+    display: flex;
+    padding: 12px 24px;
+    gap: 8px;
+    border: 1px solid transparent;
+    box-shadow: rgba(110, 110, 110, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.contact-2{
+    display: flex;
+    gap: 8px;
+    padding: 12px 24px;
+
+    border: 1px solid transparent;
+    box-shadow: rgba(111, 111, 111, 0.15) 1.95px 1.95px 2.6px;
+
+}
+.bottom{
+    position: relative;
+    left: 246px;
+    width: 200px;
+}
